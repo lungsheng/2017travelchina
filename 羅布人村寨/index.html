@@ -18,7 +18,7 @@ $(function(){
 	var ms1="<div class='ui-block-a' align='center' ><a href='#' ><img src='imgs/a";
 	var ms2="<div class='ui-block-b' align='center' ><a href='#' ><img src='imgs/a";
 	var ms3="<div class='ui-block-c' align='center' ><a href='#' ><img src='imgs/a";
-	var msh=".jpg' ></a></div>";
+	var msh=".JPG' ></a></div>";
 	
 	
 	
@@ -58,7 +58,7 @@ $("div a img").click(function(e) {
 		  if(nextpage>total){nextpage=1};
 		  picnumb=nextpage;
 		  var impage="a"+nextpage;
-	   $("#spic").attr("src","imgs/"+impage+".jpg");
+	   $("#spic").attr("src","imgs/"+impage+".JPG");
 		//alert($("#showpic").html);
 	});
 
@@ -68,7 +68,7 @@ $("#prep").click(function(e){
 		  if(nextpage<=0){nextpage=total};
 		  picnumb=nextpage;
 		  var impage="a"+nextpage;
-	   $("#spic").attr("src","imgs/"+impage+".jpg");
+	   $("#spic").attr("src","imgs/"+impage+".JPG");
 		//alert($("#showpic").html);
 	});
 })
